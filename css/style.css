@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 6px;
+    flex-direction: row;
+    
+}
+
+img{
+    height: 300px;
+    width : 243px;
+    border-radius: 10px;
+    margin: 3px;
+    border: 5px solid thistle;
+    padding: 5px;
+    box-sizing: border-box;
+}
+/* 
+img:hover{
+    height: 310px;
+    width : 250px
+} */
+
+h1{
+    margin : 0 45%;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color : lavender;
+    width: 100%;
+
+}
+
+.demo{
+    border: 5px ridge black;
+    height: 100%;
+    padding: 5px;
+    background: linear-gradient(to bottom, black, darkgrey,black);
+}
